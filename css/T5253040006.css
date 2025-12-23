@@ -1,0 +1,64 @@
+.container{
+    height: 700px;
+}
+.dc img{
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+.bc{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bc img{
+    height: auto;
+    width: 100px;
+    float: left;
+    position: relatives;
+    margin-right: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.bc:hover .aqua img{
+    color: blue;
+    content: url(img/T5/justice\ league/img-stage-2.jpg);
+    /* filter: brightness(0.5); */
+}
+.bc:hover .green img{
+    color: blue;
+    content: url(img/T5/justice\ league/img-stage-green.jpg);
+    /* filter: brightness(0.5); */
+}
+.bc:hover .super img{
+    color: blue;
+    content: url(img/T5/justice\ league/img-stage-super.jpg);
+    /* filter: brightness(0.5); */
+}
+.bc:hover .batm img{
+    color: blue;
+    content: url(img/T5/justice\ league/img-stage-batm.jpg);
+    /* filter: brightness(0.5); */
+}
+.bc:hover .wonder img{
+    color: blue;
+    content: url(img/T5/justice\ league/img-stage-wonder.jpg);
+    /* filter: brightness(0.5); */
+}
+.bc:hover .flash img{
+    color: blue;
+    content: url(img/T5/justice\ league/img-stage-flash.jpg);
+    /* filter: brightness(0.5); */
+}
+.bc:hover .martian img{
+    color: blue;
+    content: url(img/T5/justice\ league/img-stage-martian.jpg);
+    /* filter: brightness(0.5); */
+}
+
+
